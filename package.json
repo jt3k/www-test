@@ -1,0 +1,31 @@
+{
+  "name": "www-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build ./src/index.html -d ./docs/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jt3k/www-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jt3k/www-test/issues"
+  },
+  "homepage": "https://github.com/jt3k/www-test#readme",
+  "dependencies": {
+    "@sentry/browser": "^5.3.0",
+    "raven-js": "^3.27.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
